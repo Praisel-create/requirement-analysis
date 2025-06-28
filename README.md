@@ -1,6 +1,6 @@
 # requirement-analysis
 
-**What is Requirement Analysis**
+What is Requirement Analysis?
 Requirement analysis is basically the process of figuring out what exactly needs to be built before you start developing software. It is almost like, “What do you want your house to look like?” before you even pick up a hammer. It’s about understanding the needs, goals, and expectations of the people who will use the software, and then putting all that into a clear plan. In software terms, that means sitting down with clients, users, or teams to find out what they want the software to do, why they want it, and how they expect it to behave. It’s one of the first and most important steps in the software development process.
 
 *Types of Requirements*
