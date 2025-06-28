@@ -3,12 +3,41 @@ Requirement Analysis in Software Development.
 What is Requirement Analysis?
 Requirement analysis is basically the process of figuring out what exactly needs to be built before you start developing software. It is almost like, “What do you want your house to look like?” before you even pick up a hammer. It’s about understanding the needs, goals, and expectations of the people who will use the software, and then putting all that into a clear plan. In software terms, that means sitting down with clients, users, or teams to find out what they want the software to do, why they want it, and how they expect it to behave. It’s one of the first and most important steps in the software development process.
 
-*Types of Requirements*
-a. Functional Requirements: Describe what the system should do. (e.g User login, data entry, generating reports.)
-b. Non-Functional Requirements: Define how the system should perform. (e.g Performance, security, usability, reliability.)
-c. Business Requirements: High-level goals of the organization or stakeholders. (e.g “Improve user retention by 20%.”)
-d. User Requirements: End-user goals or tasks the system must support.
-e. System Requirements: The detailed specifications derived from business and user requirements, often more technical.
+Types of Requirements.
+1. Functional Requirement:
+      Functional requirements describe what the system should do — the core functions, features, and behaviors of the app that serve user needs directly.
+   A. Hotel Management Service
+      - Add/Update Hotel Information
+         Example: Hotel managers should be able to add new hotels, update room availability, and change pricing through a portal.
+      - Manage Room Details
+         Example: Managers can update room types, features, images, and number of available rooms.
+   B. Customer Service (Search + Booking)
+      - Search Hotels
+         Example: Users should be able to search for hotels by location, date, price range, and rating using Elasticsearch.
+      - Make a Booking
+         Example: Customers should be able to select a room, confirm booking dates, and submit a booking request.
+      - Process Payments
+        Example: The system must integrate with third-party payment services to allow customers to pay for their bookings.
+   C. View Booking Service
+      - View Current & Past Bookings
+         Example: Customers and hotel managers can view booking history, statuses, and details.
+      - Send Notifications
+         Example: Notifications are sent when a booking is confirmed or an offer becomes available (via Kafka consumers).
+2. Non-functional Requirements:
+      Non-functional requirements describe how the system performs rather than what it does. These ensure the system runs smoothly, securely, and efficiently.
+   A. Performance & Scalability
+      - The system should support high user traffic using load balancers, CDNs, and microservices.
+      - Booking data should load quickly using Redis caching to reduce response time.
+   B. Reliability & Availability
+      - Hotel and booking data must always be accessible, even under heavy traffic — supported by master-slave DB architecture and CDNs.
+      - The system should sync updates in real-time, using message queues (Kafka) to handle asynchronous updates between services.
+   C. Data Management
+      - Booking and search data should be stored and retrieved efficiently, using Cassandra for archival and ElasticSearch for fast search.
+      - Temporary booking data should be cached, using Redis to improve API speed and reduce DB load.
+   D. Security
+      - User data and payment details must be securely handled via third-party payment gateways and secured API endpoints.
+   E. Maintainability & Modularity
+      - The system should be easy to update or expand without downtime, achieved through microservices architecture where each service (e.g., search, booking, payment) works       independently.
 
 Key Activities in Requirement Analysis.
 1. Requirement Elicitation - Gathering requirements through:
