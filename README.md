@@ -10,7 +10,7 @@ c. Business Requirements: High-level goals of the organization or stakeholders. 
 d. User Requirements: End-user goals or tasks the system must support.
 e. System Requirements: The detailed specifications derived from business and user requirements, often more technical.
 
-*Activities in Requirement Analysis*
+Key Activities in Requirement Analysis.
 1. Requirement Elicitation - Gathering requirements through:
     * Interviews, surveys, focus groups
     * Observation, document analysis
