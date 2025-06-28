@@ -26,7 +26,7 @@ e. System Requirements: The detailed specifications derived from business and us
     * Analyzing dependencies, conflicts, and priorities
     * Deciding what to build first and why
 
-*Importance of Requirement Analysis in the SDLC*
+Why is Requirement Analysis Important?
 1. Foundation for Design and Development: Requirement analysis acts as the blueprint for the entire development process. Without it, developers may build a product that doesn't solve the right problem.
 2. Reduces Project Risk: Clear requirements prevent miscommunication, scope creep, and rework, which are often the cause of software failure or budget overruns.
 3. Improves Stakeholder Satisfaction: By involving stakeholders early, requirement analysis ensures the final product aligns with actual business needs.
