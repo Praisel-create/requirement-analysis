@@ -62,3 +62,56 @@ Why is Requirement Analysis Important?
 4. Facilitates Better Planning and Estimation: Well-defined requirements help project managers estimate time, cost, and resources more accurately.
 5. Supports Testing and Validation: Requirements serve as the basis for creating test cases to verify that the software meets user expectations.
 
+## 📌 Use Case Diagrams
+
+### 🧾 What is a Use Case Diagram?
+
+A Use Case Diagram is a visual representation of the system's functionality from the user's point of view. It shows the interactions between users (**actors**) and the system's key functions (**use cases**). These diagrams are commonly used in the Requirement Analysis phase to clarify how users engage with the system.
+
+### ✅ Benefits of Use Case Diagrams
+
+- Clearly defines system boundaries.
+- Helps identify main functionalities and user interactions.
+- Makes requirements easy to understand for technical and non-technical stakeholders.
+- Aids in identifying and avoiding missing functionality early in the development process.
+
+---
+
+### 🏨 Use Case Diagram: Hotel Booking System
+
+The following use case diagram models a hotel booking system like Airbnb or OYO. It includes two main actors:
+
+- **Customer** – the end-user booking a hotel.
+- **Hotel Manager** – the hotel owner/administrator managing listings and bookings.
+
+### 📷 Diagram
+
+
+Acceptance Criteria
+### 📌 What is Acceptance Criteria?
+**Acceptance Criteria** are clear, specific conditions or requirements that a software feature must meet for it to be accepted by the end user, stakeholder, or product owner. They define the boundaries of a user story or feature and clarify what the software should do, helping both developers and testers understand when a task is “done.”
+### 🎯 Importance of Acceptance Criteria in Requirement Analysis
+- Ensures everyone has a shared understanding of the feature’s purpose and expected behavior.
+- Acts as a guideline for developers to implement functionality that meets business needs.
+- Helps QA testers create test cases and verify that all requirements are met.
+- Reduces ambiguity and scope creep by clearly stating what is *in* and *out* of scope.
+- Improves communication between business stakeholders and technical teams.
+
+Example: Acceptance Criteria for **Checkout Feature**
+**Feature:** Customer completes hotel booking with payment confirmation.
+#### ✅ Acceptance Criteria:
+1. The system must allow a logged-in user to initiate checkout after selecting a hotel room.
+2. The user must be able to review booking details (hotel name, dates, price, taxes) before proceeding.
+3. The user must select a payment method (e.g., debit/credit card, wallet).
+4. The system must validate payment information and confirm successful transactions via the payment gateway.
+5. A confirmation message must be displayed after a successful payment, along with a unique booking reference number.
+6. A booking confirmation email must be sent to the user’s registered email within 1 minute.
+7. The booking status in the system must update to “Confirmed” after successful checkout.
+8. If payment fails, the system must notify the user and allow them to retry with a different method.
+### ✅ Format Tip:
+Acceptance criteria are often written using the **Given-When-Then** format. Here’s one rewritten in that format:
+> **Given** the user is on the checkout page with a valid hotel selection,  
+> **When** they enter valid payment information and click “Pay Now”,  
+> **Then** the system should process the payment and display a booking confirmation screen with a unique reference.
+
+
