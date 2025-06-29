@@ -86,8 +86,7 @@ The following use case diagram models a hotel booking system like Airbnb or OYO.
 
 ### 📷 Diagram
 [alx-booking-uc](https://github.com/user-attachments/assets/34b87386-58c6-4bff-a19a-1974392cb0bb)
-
-
+alx-booking-uc.png
 
 Acceptance Criteria
 ### 📌 What is Acceptance Criteria?
