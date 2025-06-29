@@ -85,7 +85,8 @@ The following use case diagram models a hotel booking system like Airbnb or OYO.
 - **Hotel Manager** – the hotel owner/administrator managing listings and bookings.
 
 ### 📷 Diagram
-alx-booking-uc.png
+[alx-booking-uc](https://github.com/user-attachments/assets/34b87386-58c6-4bff-a19a-1974392cb0bb)
+
 
 
 Acceptance Criteria
